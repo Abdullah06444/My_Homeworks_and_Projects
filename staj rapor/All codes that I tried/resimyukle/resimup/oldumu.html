@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <!-- Bootstrap -->
+    <link href="../maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/demo.html5imageupload35b8.css?v1.3" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+  <body>
+  
+  
+  <!--
+  AJAX tamama basınca data inputuyla sürekli kesip yolluyo, yapmazsan formla gönderiyo ama field adı ne belirsiz
+  canvas da field yapıyo işi. fieldın adı data. kesme biçmeyi göndereceksin diyo
+  
+  AJAX+CANVAS
+  -Data fieldını gönderiyo
+  -Tekrar edite izin vermiyo kaldı öyle.
+  
+  AJAX
+  -Fotoğrafın alayını gönderiyo
+  -Ekranda "undefined" çıkarıyo
+  -Sürekli tekrar edit modunda
+  -Submit pasif
+  
+  CANVAS
+  -Anlık Data field yok
+  -Tekrar tekrar editletiyo
+  -Bitince tuşlar çıkıyo
+  -Submitle gönderemiyo! :(
+  
+  
+  
+t(r).find(".tools .saving").remove();
+
+t(r).find(".tools").children().toggle();
+
+t(n).find(".tools").append(t(e.button.saving)); 
+
+
+if (r.buttonDel != false)
+{
+	t(l).append(h)
+}
+t(i).append(l)
+
+burası del butonunu ekler
+  
+  
+  
+data-image or image	-	This will let you preview an image you already have on your server.
+data-removeurl or removeurl	-	When given this url, everytime the user will upload an image and then clicks the trashcan, the url gets called so you can remove the image. This way your server doesn't get filled up with "tmp" images the user made. Also, when providing data-image, when the user clicks the trashcan, the url gets called so you can remove the preview image.
+data-dimensionsonly or dimensionsonly	false	This option will let you $_POST only the dimensions and not the image source. Use this option if you only want the user to post dimensions, for example when you have the original image already stored on your server.
+data-editstart or editstart	false	When you provide data-image you can let users start editing the image immediately
+  
+  
+  {"status":"success","url":"\/tmp\/Jellyfish.c5636d.jpg?1439261386","filename":"Jellyfish.c5636d.jpg"}
+  
+  -->
+  
+			
+		  <div class="dropzone"  data-width="128" data-ajax="true" data-canvas="true" data-editstart="false" 
+		  data-ghost="false" data-resize="false" data-image="uploads/newImage.jpg" data-removeurl="upload.php" data-download="true" 
+		  data-url="upload.php" data-height="128" style="width: 128px; height: 128px;">
+		    <input type="file" name="thumb" required="required" style="width: 128px; height: 128px;" multiple />
+			
+			
+		  </div>
+		
+	
+	
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/i18next.mine1dd.js?v1.8.0"></script>
+    
+
+	
+    <script src="assets/js/html5imageupload.min1412.js?v1.4.3"></script>
+    <script src="assets/js/notify.js"></script>
+    
+<script>$('.dropzone').html5imageupload(
+{
+
+}
+);
+
+
+</script>
+
+    
+  </body>
+
+<!-- Mirrored from codecanyon.stbeets.nl/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Aug 2015 14:27:09 GMT -->
+</html>

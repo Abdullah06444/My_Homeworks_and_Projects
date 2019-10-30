@@ -1,0 +1,14 @@
+Program linux üzerinde yazılmıştır. MVC modellemesiyle kodlandığı için farklı kod bloklarını farklı yerlerden derleyip çagırılıyor.
+Kullanıcıyı yormamak için bash script yazılmıştır. bu bash script kod bloklarının çagırılmıs oldugu, start dosyasının içinde.
+
+Linuxte kodumuzu nasıl çalıştırırız;
+
+1)Terminalimizi açıyoruz.
+
+2)cd komutuyla kodumuzun bulunduğu dizine giriyoruz.
+
+3) Ve tek yapmamız gereken ./start diyip bash script'i çalıştırmak olcaktır.
+
+Windowsta 
+
+1)Eclips veya herhangi bir IDE'e ekleyerek compile edip çalıstırılabilir.
