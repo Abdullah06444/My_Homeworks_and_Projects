@@ -1,1 +1,1 @@
-# Odevlerim_ve_Projelerim
+Bu zamana kadar yapmış olduğum ödevler ve projelere buradan ulaşabilirsiniz.
