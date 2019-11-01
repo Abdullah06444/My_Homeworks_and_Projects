@@ -1,2 +1,5 @@
-# Ödevlerim ve Projelerim
-Bu zamana kadar yapmış olduğum ödevlerim ve projele bilgilerimin bulunduğu depo alanım.
+# My Homeworks & Projects
+## Ödevlerim ve Projelerim
+
+This repository has all my homeworks and projects which make till these days.
+*Bu zamana kadar yapmış olduğum ödevlerim ve proje bilgilerimin bulunduğu depo alanım.*
